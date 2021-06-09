@@ -5,7 +5,7 @@ import string
 
 dsn_tns = cx_Oracle.makedsn('edb-test.int.colorado.edu', '1521', 'edtest')
 #TODO
-conn = cx_Oracle.connect(user='anan4615', password='Colorado2020!', dsn=dsn_tns)
+conn = cx_Oracle.connect(user='', password='', dsn=dsn_tns)
 c = conn.cursor()
 
 f = csv.reader(open('datatypes.csv','r'))
